@@ -1,0 +1,54 @@
+.app-social-buttons {
+  margin-top: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app-social-buttons button + span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.app-social-buttons button + span button {
+  color: #fff !important;
+}
+
+.app-social-buttons button {
+  color: #666 !important;
+  margin-bottom: 1.25rem;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.app-login-otp-btn {
+  background: #fff !important;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2) !important;
+  color: #2874f0 !important;
+  padding: 15px 45px !important;
+}
+
+.app-login-or-text {
+  text-align: center;
+  font-size: 14px;
+  padding: 0px;
+  margin: 1.25rem 0px 1.25rem 0px;
+  font-weight: 700;
+  color: #666;
+}
+/*# sourceMappingURL=Login.css.map */

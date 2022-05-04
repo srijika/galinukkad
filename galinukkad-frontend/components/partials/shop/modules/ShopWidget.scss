@@ -1,0 +1,19 @@
+.app-price-form {
+    display: flex;
+    div  {
+        flex : 1 1;
+        input {
+            width: 100%;
+            display: block;
+            border:1px solid #ccc;
+            padding:0.625rem;
+        }
+    }
+}
+
+.app-action-btn {
+    margin-top: 10px;
+    button:first-child  {
+        margin-right: 10px;
+    }
+}

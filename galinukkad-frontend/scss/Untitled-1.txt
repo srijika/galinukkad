@@ -1,0 +1,7 @@
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\scss\modules\_header.scss -
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\components\shared\headers\modules\SearchHeader.jsx - serach icon L-130
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\components\shared\headers\modules\AccountQuickLinks.jsx - L-83
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\scss\modules\_header.scss - L-58
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\scss\elements\_block.scss- L-267
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\scss\modules\_header.scss - L-78
+D:\React\New Galinukkad\galinukkad\galinukkad-frontend\scss\modules\_header.scss - L- 82

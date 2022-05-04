@@ -1,0 +1,30 @@
+.top-divider {
+    background-color: #f1f1f1;
+    height: 66px;
+    padding: 1%;
+}
+
+.order-wrapper {
+    border: 1px solid #f1f1f1;
+    margin: 2%;
+}
+
+.inner-order-content-left {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ps-btn.ps-btn--black {
+    background-color: #000;
+    color: #fcb800;
+    &:hover {
+        color: #000;
+    }
+}
+
+.inner-order-content-right {
+    width: 35%;
+}
+
+

@@ -1,0 +1,1 @@
+@keyframes marquee{0%{margin-left:100%;transform:translateX(0%)}100%{margin-left:0;transform:translateX(-100%)}}.section_my{overflow:hidden}.section_my .marquee{animation:marquee 16s linear infinite;display:inline-block;white-space:nowrap}.section_my .marquee:hover{animation-play-state:paused}.text_glowing{font-size:16px;color:black;font-weight:500}

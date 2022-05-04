@@ -1,0 +1,69 @@
+                                                20-09-2021
+1.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\modules\_header.scss
+(header__right, header__right)
+2.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\shared\headers\modules\HeaderActions.jsx
+(fa-balance-scale icon, add tooltip)
+3.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\shared\headers\modules\SearchHeader.jsx
+(search button)
+4.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_block.scss
+(.ps-block--user-account)
+
+5.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_block.scss(link hover color change , ps-list--arrow hover color , padding)
+6.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\style.scss(drop down scroll)
+7.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_menu.scss(.menu--dropdown)
+8.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_menu.scss(.mega-menu)
+9.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\style.scss(.menu, .menu--dropdown > li.has-mega-menu .mega-menu, mega-menu__column)
+
+
+                                                21-09-2021
+1.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\elements\menu\MegaMenu.jsx(ryt_arw_link)
+2.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_menu.scss(.ryt_arw_link:hover)
+3.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\elements\BreadCrumb.jsx(container,)
+4.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_breadcrumb.scss(ps-breadcrumb)
+5.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_section.scss(.ps-section--shopping , h2, )
+6.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_table.scss(.ps-table--shopping-cart)
+7.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_block.scss(ps-block--shopping-total)
+8.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\partials\account\ShoppingCart.jsx(SHOPPING CAR)
+9.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\themes\default\_page.scss(#homepage-1)
+10.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\partials\homepage\home-default\HomeBanner.jsx(style={{maxHeight:'410px'})
+11.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_product.scss(ps-product)
+12.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\elements\products\Product.jsx(ps-product__price)
+13.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_product.scss(ps-product__vendor)
+
+
+                                                22-09-2021
+
+1.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_section.scss(.ps-top-categories ,h3 )
+2.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_block.scss(.ps-block--category)
+3.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\themes\default\_page.scss(ps-top-categories)
+4.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_section.scss(.ps-section__header h3,)
+5.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\partials\account\Compare.jsx(ps-table--compare)
+6.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\elements\_block.scss(ps-collection)
+7.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\scss\components\_section.scss(.ps-top-categories)
+8.C:\xampp\htdocs\gali\galinukkad\galinukkad-frontend\components\partials\homepage\home-default\HomeAds.jsx
+
+
+                                                23-09-2021
+1.D:\React\galinukkad\galinukkad-frontend\components\shared\footers\modules\FooterWidgets.jsx(<aside className="widget widget_footer">)
+2.D:\React\galinukkad\galinukkad-frontend\components\shared\footers\modules\FooterCopyright.jsx(<img className="company-logo">)
+3.D:\React\galinukkad\galinukkad-frontend\scss\modules\_footer.scss(&__copyright , &__links p )
+4.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(.widget , widget-title L-73)
+5.D:\React\galinukkad\galinukkad-frontend\components\partials\shop\modules\ShopWidget.jsx(L-310 filters)
+6.D:\React\galinukkad\galinukkad-frontend\scss\components\_forms.scss(ps-form--account L-237)
+7.D:\React\galinukkad\galinukkad-frontend\scss\components\_section.scss(L-370 ps-layout__left)
+8.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(ant-checkbox-group figure L-179 , ant-checkbox-group L-170)
+9.D:\React\galinukkad\galinukkad-frontend\components\elements\products\Product.jsx(L-100)
+
+
+                                                24-09-2021
+1.D:\React\galinukkad\galinukkad-frontend\scss\elements\_list.scss(ps-list--social L-12 )
+2.D:\React\galinukkad\galinukkad-frontend\components\shared\footers\modules\FooterWidgets.jsx(address)
+3.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(.widget_footer L-325)
+4.D:\React\galinukkad\galinukkad-frontend\scss\elements\_table.scss(L-178 , )
+5.D:\React\galinukkad\galinukkad-frontend\components\partials\account\Wishlist.jsx(L-102)
+6.D:\React\galinukkad\galinukkad-frontend\scss\elements\_table.scss(.wishlist_header)
+7.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(widget_shop L-67)
+8.D:\React\galinukkad\galinukkad-frontend\scss\components\_section.scss(L-375,  ps-layout__right)
+9.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(L-42)
+10.D:\React\galinukkad\galinukkad-frontend\scss\elements\_list.scss(.ps-list--categories L-316)
+11.D:\React\galinukkad\galinukkad-frontend\scss\elements\_widget.scss(L-180)

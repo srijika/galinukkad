@@ -1,0 +1,95 @@
+const router = require("express").Router();
+const { Setting, UserLogins } = require("../_helper/db");
+
+// router.use(admin_middleware);
+
+module.exports = {
+  list: async (req, res, next) => {
+    try {
+      let settings = await Setting.find({}).lean().exec();
+
+      let _id = req.body._id;
+      console.log('req.body.email');
+      console.log(_id);
+      let user = {};
+      if(!['', null, undefined].includes(_id)) { 
+        user = await UserLogins.findById(_id);
+      }
+
+      let d = {
+        'option': 'userStatus', 
+        'value': user.deactive
+      }
+
+      settings.push(d);
+
+
+      res.status(200).send({
+        settings: settings.reverse(),
+        user_detail: user 
+      });
+    } catch (e) {
+      console.log(e);
+      res.send(e);
+    }
+  },
+
+  create: async (req, res, next) => {
+    const { option, value } = req.body;
+    console.log(req.body);
+    let setting = await Setting.find({ option: option });
+    if (setting.length > 0) {
+      return res.json({ status: 401, message: "Setting already exists" });
+    }
+
+    const settingData = Setting(req.body);
+
+    await settingData.save();
+    return res.send({
+      status: 200,
+      message: "Setting has been successfully added.",
+    });
+  },
+
+  edit: async (req, res, next) => {
+    let id = req.params.id;
+    let setting = await Setting.findById(id);
+    res.send({ status: 200, setting: setting });
+  },
+
+  update: async (req, res, next) => {
+    let id = req.params.id;
+
+    const { option, value } = req.body;
+
+    let setting = await Setting.find({ option: option, _id: { $ne: id } });
+    console.log(setting);
+    if (setting.length > 0) {
+      return res.json({ status: 401, message: "Setting already exists" });
+    }
+
+    await Setting.findByIdAndUpdate(id, {
+      option: option,
+      value: value,
+    });
+
+    res.send({ status: 200, msg: "Setting has been successfully updated." });
+  },
+};
+
+router.post("/setting/create", async function (req, res) {
+  const { option, value } = req.body;
+  console.log(req.body);
+  let setting = await Setting.find({ option: option });
+  if (setting.length > 0) {
+    return res.json({ status: 401, message: "Setting already exists" });
+  }
+
+  const settingData = Setting(req.body);
+
+  await settingData.save();
+  return res.send({
+    status: 200,
+    message: "Setting has been successfully added.",
+  });
+});

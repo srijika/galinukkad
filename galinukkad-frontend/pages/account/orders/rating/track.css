@@ -1,0 +1,169 @@
+.ant-rate-star-first, .ant-rate-star-second {
+  color: #e7e7e7;
+}
+
+.app-track-order-heading {
+  font-size: 30px;
+  line-height: 40px;
+  letter-spacing: -.38px;
+  color: #008577;
+  font-weight: 500;
+}
+
+.app-track-order-wrapper {
+  margin-top: 5rem;
+}
+
+.app-track-order .app-track-progress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.app-track-order .app-track-progress-milestone {
+  min-height: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.app-track-order .app-track-progress-milestone > div:first-child {
+  width: 30px;
+}
+
+.app-track-order .app-track-progress-milestone > div:last-child {
+  width: 300px;
+  word-wrap: break-word;
+}
+
+.app-track-order .app-track-progress-milestone > div:last-child .app-milestone-heading-active {
+  font-size: 19px;
+  color: #002F36;
+  font-weight: 700;
+}
+
+.app-track-order .app-track-progress-milestone > div:last-child .app-milestone-heading-unactive {
+  font-size: 19px;
+  color: #000;
+  font-weight: 400;
+}
+
+.app-track-order .app-track-progress-milestone-checkbox {
+  width: 25px;
+  height: 25px;
+  background-color: #008577;
+  display: block;
+  position: relative;
+  border-radius: 50%;
+}
+
+.app-track-order .app-track-progress-milestone-checkbox-checked::before {
+  content: '';
+  position: absolute;
+  display: block;
+  border-left: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  -webkit-transform: rotate(-55deg);
+          transform: rotate(-55deg);
+  width: 15px;
+  height: 10px;
+  top: 22%;
+  left: 23%;
+}
+
+.app-track-order .app-track-progress-milestone-checkbox-unchecked {
+  background: #fff;
+  border: 3px solid #ccc;
+}
+
+.app-track-order .app-track-progress-milestone-marker {
+  width: 5px;
+  height: 15rem;
+  position: absolute;
+  display: block;
+  margin: 0px 0px 0px 10px;
+  z-index: 0;
+  background-image: linear-gradient(#cdcdcd 100%, rgba(255, 255, 255, 0) 0px);
+  background-position: right center;
+  background-size: 10px 20px;
+  background-repeat: repeat-y;
+}
+
+.app-track-order .app-track-progress-milestone-marker-percentage {
+  width: 5px;
+  background-color: #008577;
+  display: block;
+}
+
+.app-order-image-container {
+  max-height: 400px;
+  max-height: 400px;
+  display: block;
+  width: 400px;
+}
+
+.app-order-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.app-order-tracking-deliery-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 5rem;
+}
+
+@media (max-width: 767px) {
+  .app-order-tracking-deliery-container {
+    margin-top: 5rem;
+  }
+}
+
+.app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer {
+  width: 400px;
+  margin-right: 0.625rem;
+  background-color: #fff;
+  padding: 18px;
+  border: 4px solid #D5DBDB;
+}
+
+@media (max-width: 767px) {
+  .app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer {
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 0.625rem;
+  }
+}
+
+.app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer h1 {
+  font-size: 19px;
+  color: #002F36;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer-shippingAddress-link {
+  display: block;
+  color: #008296;
+  padding: 13px 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer-shippingAddress-link:hover {
+  background-color: #0082963b;
+}
+
+.app-order-tracking-deliery-container .app-order-tracking-deliery-cardContainer-shippingAddress p {
+  margin: 0 0 5px 0;
+}
+/*# sourceMappingURL=track.css.map */

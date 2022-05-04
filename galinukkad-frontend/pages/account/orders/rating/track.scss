@@ -1,0 +1,152 @@
+.ant-rate-star-first, .ant-rate-star-second{
+    color: #e7e7e7;
+}
+
+.app-track-order {
+    &-heading {
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -.38px;
+    color: #008577;
+    font-weight: 500;
+    }
+
+    &-wrapper {
+        margin-top:5rem;
+    }
+    .app-track-progress{
+        display: flex;
+        flex-direction: column;
+        &-milestone {
+            min-height: 15rem;
+            display: flex;
+            flex-wrap: nowrap;
+            > div:first-child {
+                width: 30px;
+            }
+            > div:last-child {
+                width: 300px;
+                word-wrap: break-word;
+                
+                .app-milestone-heading-active {
+                    font-size: 19px;
+                    color: #002F36;
+                    font-weight: 700;
+                }
+
+                .app-milestone-heading-unactive {
+                    font-size: 19px;
+                    color: #000;
+                    font-weight: 400;
+                }
+
+            }
+            &-checkbox {
+                width: 25px;
+                height: 25px;
+                background-color: #008577;
+                display: block;
+                position: relative;
+                border-radius: 50%;
+            }
+
+            &-checkbox-checked::before {
+                content: '';
+                position: absolute;
+                display: block;
+                border-left: 3px solid #fff;
+                border-bottom: 3px solid #fff;
+                transform: rotate(-55deg);
+                width: 15px;
+                height: 10px;
+                top: 22%;
+                left: 23%;
+            }
+
+            &-checkbox-unchecked {
+                background:#fff;
+                border: 3px solid #ccc;
+            }
+
+            &-marker {
+              
+              
+                width: 5px;
+                height: 15rem;
+                position: absolute;
+                display: block;
+                margin: 0px 0px 0px 10px;
+                z-index: 0;
+                background-image: linear-gradient(rgb(205, 205 ,205) 100%, rgba(255, 255, 255, 0) 0px);
+                background-position: right center;
+                background-size: 10px 20px;
+                background-repeat: repeat-y;
+                &-percentage {
+                    width: 5px;
+                    background-color: #008577;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.app-order-image-container {
+    max-height: 400px;
+    max-height: 400px;
+    display: block;
+    width: 400px;
+    img {
+        width: 100%;
+        height: 100%;
+        // object-fit: cover;
+    }
+}
+
+.app-order-tracking-deliery-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    @media (max-width:767px) { 
+        margin-top:5rem;
+    }
+    .app-order-tracking-deliery-cardContainer {
+        width: 400px;
+        @media (max-width:767px) {
+            width: 100%;
+            margin-right: 0px;
+            margin-top:0.625rem;
+        }
+        margin-right: 0.625rem;
+        background-color: #fff;
+        padding: 18px;
+        border: 4px solid #D5DBDB;
+      
+
+        h1 {
+            font-size: 19px;
+            color: #002F36;
+            line-height: 25px;
+            font-weight: 500;
+        }
+
+        &-shippingAddress {
+            &-link {
+                display: block;
+                color: #008296;
+                padding: 13px 10px;
+                font-size: 15px;
+                text-decoration: none;
+            }
+
+            &-link:hover {
+                background-color: #0082963b;
+            }
+            p {
+                margin: 0 0 5px 0;
+            }
+        }
+    }
+}
+
+

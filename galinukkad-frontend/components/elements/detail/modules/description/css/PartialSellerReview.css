@@ -1,0 +1,30 @@
+.app-anchor-show-more {
+    color: #1890ff !important;
+    font-weight: 600;
+}
+.app-review-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    margin-bottom: 0.625rem;
+    box-shadow: 1px 3px 10px #ccc;
+}
+
+.app-review-card .app-review-card-header {
+    display: flex;
+    align-items: center;
+}
+
+.app-review-card img {
+    width: 50px;
+    border-radius: 100%;
+    padding-right: 5px;
+}
+.app-review-card .app-review-card-date {
+    color: #999;
+}
+
+.app-review-card .app-review-card-desc {
+    line-height: 1.5rem;
+    padding-top: 5px;
+}
+

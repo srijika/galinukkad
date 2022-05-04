@@ -1,0 +1,120 @@
+.app-product-card {
+    display: flex;
+}
+
+.app-product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.app-product-card div:first-child {
+    width: 100px;
+    height: 100px;
+}
+
+.app-product-card div:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 0.625rem;
+}
+
+.app-product-card div:last-child p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.app-product-card div:last-child h5 {
+    padding: 0px;
+    margin: 0px 0px 0.625rem 0px;
+}
+
+.app-product-cbk {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.app-return-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.app-return-actions label {
+    font-weight: 500;
+}
+
+.app-return-actions select {
+    padding:5px 10px;
+    width:100%;
+}
+
+.app-heighlighted-btn {
+    border:none;
+    background: rgb(252,249,0);
+    background: linear-gradient(180deg, rgba(240, 240, 240,0.8) 0%, rgba(252,184,0,1) 46%);
+    padding:10px 20px;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid #fcb800;
+}
+
+.app-return-rhs {
+    margin-top:65px;
+}
+.app-return-rhs div:first-child {
+    padding-bottom: 0px;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.app-return-rhs-selected-imgs {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.app-return-rhs-selected-imgs label {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.app-return-rhs-selected-imgs label+div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.app-return-rhs-selected-imgs label+div img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 0.625rem;
+}
+
+@media(max-width:991px) {
+    .app-return-rhs {
+        margin-top:10px
+    }
+}
+
+@media(max-width:767px) {
+    .app-return-actions {
+        margin-top:0.625rem;
+    }
+}
+
+
+@media(max-width:575px) {
+    .app-product-cbk {
+        margin-bottom: 0.625rem;
+    }
+}

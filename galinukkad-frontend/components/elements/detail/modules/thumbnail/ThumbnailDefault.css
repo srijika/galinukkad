@@ -1,0 +1,12 @@
+.slick-slide.slick-cloned .app-main-slider {
+  display: none !important;
+}
+
+.check_img {
+  width: 100%;
+  height: 100%;
+  position: 'absolute';
+  left: '50%';
+  margin-left: '-25%';
+}
+/*# sourceMappingURL=ThumbnailDefault.css.map */

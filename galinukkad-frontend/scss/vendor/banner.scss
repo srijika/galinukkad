@@ -1,0 +1,29 @@
+@include media('<sm') {
+.ps-vendor-banner .leftSideBoxImg .relative-img:after {
+    content: '';
+    border: 79px solid transparent;
+    position: absolute;
+    top: -60px;
+    left: -16%;
+    height: 142%;
+    width: 139%;
+    border-radius: 164px;
+    transform: rotate(108deg);
+}
+.ps-vendor-banner .leftSideBoxImg {
+    position: relative;}
+
+.ps-page--single > .ps-vendor-banner {
+    background-color: #FFFFFF;
+    padding-left: 27px;
+}
+
+
+.ps-page--single > .ps-vendor-banner {
+    background-color: #FFFFFF;
+    padding: 0 30px;
+}
+.header .mw-100 {
+    width: 50px;
+}
+}

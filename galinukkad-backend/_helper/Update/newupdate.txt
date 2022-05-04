@@ -1,0 +1,1252 @@
+
+
+
+
+backend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+
+front end
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/Shipping.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/utilities/carousel-helpers.js
+
+
+1. (Front End , Main Screeen) when seller only add one product one category like (Shirt).In front end products show two time . now fix the issue show only one product base on category.
+
+2.(backend/frond) when customer create/place an order successfully but after place order  item not clear from cart.now cart item clear successful.
+
+3.(front end) fix the issue of undefined orderCreationId and dispath value when order created by customer.now order create succesful and redirect to order list.
+
+
+
+
+
+08 aug
+
+customer variet add issue
+
+remove pincode set storage
+
+
+
+
+
+
+
+1. (Customer) Fix the issue Address update from user Account , cant get detail id (now customer can update Address)
+2. (Customer) Add Validation on First name and last name cant enter digit. Mobile should be 10 digit and postal code must be 6 digit.
+3. (Customer) When Customer add and update address redirect on Main Address Page and Screen scroll Top .
+4. (Customer) Customer can Add item to cart and check pincode availability without login but cant add item to wishlist and cant buy product without login.
+5. (Customer) Add ship rates with product price (if price more 500 ship rate Free and price less than 500 ship rate 50rs).
+6. (Customer) Fix the page reload issue when customer add item to cart from wishlist.
+7. (Customer) fix the issue on order list MRP(original price) Show on price filed but now price show after discount
+
+
+
+
+
+
+
+
+
+
+
+
+
+frontend
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/FormCheckoutInformation.jsx
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationQuickView.jsx
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/TableTicket.jsx
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/shared/headers/modules/MiniCart.jsx
+
+backend
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/cartAndWishlist.js
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/TicketController.js
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/ManageCaseLog.js
+
+
+
+
+1. (backend/frontend wishlist)when customer remove item from wishlists but after refresh page item get back to wishlists and cant delete from wishlist database (Now item delete from database when item remove from wishlist)
+
+2. (customer Track order)In Track Order Screen Address FirstOne Address Come from database (but now order base Address will come track orders Adress)
+
+3.(Customer QuickView Item)When customer click on Quick view of item fixed value of sku Show but now orginal sku value show.
+
+4.(customer checkout screen)When cutomer come in checkout screen and click on ship here address pincode code not check it deliverable or not on this address but now pincode will check is product deliverable or not on this address.
+
+5.(customer) when customer come in checkout screen and add a new shipping address but not new address created it update firstone address of customer.now new shipping address will generated when customer click on continue to shopping.
+
+
+
+
+
+{"_id":{"$oid":"6142d7ed4911ad23a838ad12"},"attempt":1,"loginid":{"$oid":"61320372afd95f540186005d"},"otp":"8846","create":{"$date":"2021-09-16T05:36:45.265Z"},"updated":{"$date":"2021-09-16T05:36:45.265Z"},"__v":0}
+{"_id":{"$oid":"6142d7ed4911ad23a838ad12"},"attempt":1,"loginid":{"$oid":"61320372afd95f540186005d"},"otp":"8846","create":{"$date":"2021-09-16T05:36:45.265Z"},"updated":{"$date":"2021-09-16T05:36:45.265Z"},"__v":0}
+
+
+
+
+
+
+
+
+
+
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/CreateTicket.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/Shipping.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/commons/Newletters.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/TableTicket.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationDefault.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/store/compare/saga.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/shared/headers/HeaderDefault.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+frontend
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/news-article
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/news
+
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/news-article/HomeBlogs.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/post/PostDetailBackground.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/post/PostGrid.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/news/BlogGrid.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/post/NewsGrid.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/shared/headers/HeaderDefault.jsx
+
+server
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/front.controller.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/models/blogs.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/routes/index.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/models/newsarticles.js
+
+
+
+
+
+
+
+
+
+
+
+
+admin
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-admin/src/pages/orders/details/order-details.js
+
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/invoice/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationDefault.jsx
+
+
+
+
+// .text("Shipping Address:", 300, customerInformationTop)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+server
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/routes/index.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/public/html/invoice.html
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/public/invoice/invoice.hbs
+
+//frontend
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/invoice/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_section.scss
+
+
+
+
+
+server
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/public/invoice/invoice.hbs
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/reportController.
+
+
+new
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/ManageCaseLog.js
+
+
+
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/invoice/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_section.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/invoice/[id].jsx
+
+
+
+
+
+
+
+
+
+front end
+/home/react-developer/Videos/Backup/galinukkad/6 oct 2021/frontend/components/partials/account/Shipping.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8  0ct 2021
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/store/cart/saga.js
+
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/style.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_menu.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/news/BlogDetailSidebar.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/post/PostDetailBackground.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationQuickView.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_section.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/products/Product.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/elements/_product.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/shared/headers/HeaderDefault.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/OrderListItem.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/store/cart/saga.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_section.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationQuickView.jsx
+
+
+server
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationQuickView.jsx
+
+11 oct 2021
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/store/wishlist/saga.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/shared/headers/HeaderDefault.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/scss/components/_section.scss
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/OrderListItem.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/return/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/track/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/elements/detail/modules/information/InformationDefault.jsx
+
+
+
+//server 
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/routes/index.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+
+
+
+
+
+
+
+12 oct 2021 
+frontend
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/node_modules/react-toastify/dist/ReactToastify.min.css
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/components/partials/account/modules/OrderListItem.jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/track/[id].jsx
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-frontend/pages/account/orders/return/[id].jsx
+
+
+//servers
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/controllers/orderController.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/models/order.js
+/home/react-developer/Videos/gallinukkad/galinukkad/galinukkad-backend/routes/index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/return/order
+/create-replace-order-product
+  //Communication  
+  app.post('/send/chat/message', authenticateJWT, SellerController.startChatting)
+  app.post('/list/chat/message', authenticateJWT, SellerController.listMessages)
+  app.post('/chat/group', authenticateJWT, SellerController.chatGroup)
+
+    //advertising
+  app.post('/activelist/advplan', authenticateJWT, SellerController.getActiveAdvPlanList)
+  app.post('/list/advplan', authenticateJWT, SellerController.getAdvPlanList)
+  app.post('/book/advplan', authenticateJWT, SellerController.bookAdvPlan)
+  app.post('/deleteBookPlan/advplan', authenticateJWT, SellerController.deleteBookPlan)
+
+    // Communication 
+  app.post('/create/communication', authenticateJWT, SellerController.createCommunication);
+ 
+  app.post('/get/communication/productid', SellerController.getCommunicationProductId);
+  app.get('/seller/list/communication', authenticateJWT, SellerController.getCommunication);
+  app.get('/alllist/communication', SellerController.getAllCommunication);
+
+  // Iqrar --> Order return Api
+  // app.post('/orderreturn', authenticateJWT, orderController.orderReturn)
+  // app.get('/get-return-orderlist', authenticateJWT, orderController.getReturnOrderList)
+  // app.get('/get-return-order-by-order-id', authenticateJWT, orderController.getReturnOrderByOrderId)
+
+   // Iqrar
+  app.post('/create-frequently-asked-question', authenticateJWT, frequentlyAskedQuestion.createFrequentlyAskedAuestion)
+  app.get('/get-frequently-asked-questionlist', authenticateJWT, frequentlyAskedQuestion.getFrequentlyAskedAuestionList)
+  app.get('/get-frequently-asked-question-by-userid', authenticateJWT, frequentlyAskedQuestion.getFrequentlyAskedAuestionId)
+  app.put('/update-frequently-asked-question', frequentlyAskedQuestion.updateFrequentlyAskedQuestion);
+  app.delete('/delete-frequently-asked-question', frequentlyAskedQuestion.deleteFrequentlyAskedQuestion);
+
+
+
+
+
+
+
+
+
+
+
+
+
+  contact us data show in admin
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/headers/modules/SearchHeader2.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/pages/index.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+  15 nov 2021
+  frontend
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/scss/style.scss
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/partials/account/modules/OrdersDetail.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/pages/blog/HomeBlogs.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/navigation/NavigationDefault.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/navigation/NavigationList.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/headers/modules/SearchHeader.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/headers/HeaderDefault.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/headers/modules/SearchHeader2.jsx
+  /home/react-developer/Videos/galinukkad/galinukkad-frontend/components/shared/headers/modules/SearchHeader.jsx
+/home/react-developer/Videos/galinukkad/galinukkad-frontend/components/partials/account/Login.jsx
+/home/react-developer/Videos/galinukkad/galinukkad-frontend/components/partials/account/Register.jsx
+
+
+
+
+
+
+
+  tasks
+  1. menu dropdown hide on mobile view
+
+
+
+  Complete Screen Galinukkad
+
+  1. Home Page Screen (Header,Product , Blog , Article , Footer)
+  2.Login Screen 
+  3.Register 
+  4.Product Category List 
+  5.Single Product
+  6.Add To Cart 
+
+
+  today
+  7.Wishlist --(Not Upload)
+  8.check information
+  9.Account Information
+  10.Notification
+  11.Address
+
+
+  blog list deatails
+  arctcile list deatails
+
+
+TODAY 20 NOV
+  7.Wishlist --(Not Upload)
+  8.check information
+  9.Account Information
+  10.Notification
+  11.Address
+Recent Viewed Products 
+Support
+My Coupons
+Order Details
+order tracked
+product review
+SHipping checkout 
+order list
+compare
+
+
+
+
+
+.mobile-login-form-button{
+    @include media('<sm') {
+        color: black;
+       }
+@include media('<md') {
+     color: black;
+    }
+  }
+
+
+  @include media('<sm') {
+    color: black;
+   }
+
+   .ant-row{
+    @include media('<sm') {
+        font-size: 14px;
+        font-weight: bold;
+         } 
+   }
+   
+
+   header
+   ticket
+
+
+
+
+
+
+   24 dec 2021
+   *galinukkad Admin
+   2 done
+   3 done  
+   4 done 
+   5 done
+   6 done
+   7 done
+   8 done
+   9 done
+   10 Done
+   11 done
+   12 done
+   13 Done
+   14 Defer ______
+   15 done
+   16 No Mention ________
+   17 done
+   18 done
+   19 Done
+   20 Done
+   21 Done
+   22 Done
+   23 Done
+   24 Done
+   25 Done
+   26 Done
+   27 Done
+   28 Done
+   29 Done
+   30 Defer_________
+   31 Done
+   32 Done
+   33 Done
+   34 Done
+   35 Done
+   36 Done
+   37 Jal __________
+   38 Done
+   39 No Mention _______
+   40 Done
+   41 Done
+   42 Done
+   43 Done from account verification ________
+   44 Done
+   45 No mention ______
+   46 Done
+   47 Done
+   48 Done  
+   49 Done
+   50 Done
+   51 Done
+   52 Done 
+   53 Done
+   54 Defer ________
+   55 Done
+   56 Done
+   57 Done
+   58 Done
+   59 Done
+   60 Done
+   61 Defer _____
+   62
+   63
+
+
+**Seller Panel
+2
+3 Done
+4
+5 Done
+6 Done
+7 Done
+8 Done
+9 Done
+10 Done
+11 Done
+12 no mention ________
+13 Done
+14 Done
+15 Done
+16 Done
+17 Defer
+18 Done
+19 Done
+20 Done
+21 Done
+   22 Done
+   23 Done
+   24 Done
+   25 Done
+   26 Defer_________
+   27 Done
+   28 Done
+   29 Done
+   30 Defer_________ Only One Image can upload as Thumbnails
+   31 Done
+   32 Done
+   33 Done
+   34 Done_________ Only One Image can upload as Thumbnails
+   35 Done
+   36 Done
+   37 Done_________
+
+
+
+
+
+
+
+
+
+
+Galinukkad FrontEnd:
+58 Done
+57 Done
+56 Done
+55 Done
+54 Done
+53 Done
+52 Defer_________
+
+
+
+
+
+
+
+
+ADMIN GALINUKKAD 
+08 feb 2022
+
+63 Done
+64 Done
+65 Done
+66 Defer_________
+67 Done
+68 Discuss_________________--
+69 Discuss_________________--
+70 Done
+71 add1 add2
+72 Done
+73 _________invoice id not get
+72 Done
+74 Done
+75 Not Describe
+76 Done
+77 Done
+78 Done
+79 Done
+80 not scrollbar its go to bottom
+81 Done
+82 Done 
+83 Done
+84 Done
+83 Done
+85 Done
+
+09 feb 2022
+86 Done
+87 Done
+88 Done
+89 Done
+90 Done
+91 Done
+92 Done
+93 Done
+94 Done
+95 ___________No Describe
+96 Done
+97 Done
+98 Done
+99 Done
+100 only 5 banner show latest
+101 Done
+102 ____
+103 Done
+104 Done
+105 Done
+106 Done
+107 Done
+108 Done
+109 Done
+110 Done
+111 Done
+112 Done
+113 Done
+114 Done
+115 _______
+116 Done  
+117 Done
+118 Done
+119 Done
+120 Not Describe
+121 Done
+
+ADMIN Left Points
+[115 , 102 , 73]
+
+
+
+
+
+
+
+
+
+
+Seller Panel 
+09 Feb 2022
+52 Done
+51 Done
+50 Done
+49 Not Describe
+48 Done
+47 Done
+46 ADD1  , ADD2
+45 Done
+44 not get date now
+43 Done
+42 Done Not Scroll Button
+41 Done
+40 Done
+39 Done
+38 Not Mention
+37 Done
+36 Done
+35 Done
+34 Done
+33 Done
+32 Done 
+31 Done
+20 Done
+29 Done
+28 Done
+27 Done
+26 Discuss_________________
+25 Done
+24 Done
+23 Done
+
+22 Upload Not Proper
+21 Upload Not Proper
+20 Upload Not Proper
+
+
+19 Done But not properly
+18 Done
+17 Done
+16 Done
+15 Done
+16 Done
+13 Done
+12 Done 
+11 Done by JAl Singh
+10 Done
+9 Done
+8 Done
+7 Done
+6 Done
+5 Done
+4 Done
+3 Done
+2 Done
+
+
+
+
+Seller Left Points
+[11 ,20 , 21 ,22 ,  26 , 50]
+
+
+
+FrontEnd 
+09 Feb 2022
+1 ✅
+2 ✅
+3 ✅
+4 ✅
+5 ✅
+6 ✅
+7 ✅
+8 ✅
+9 ✅
+
+
+22 Feb 2022
+10  ✅
+11  ✅
+12  ✅
+13  Defer_________⭕
+14  ✅
+15  ✅
+16  ✅
+17  ✅
+18  ✅
+19  Defer_________⭕
+20
+21  ✅
+22  ✅
+23  Its Banner Img ✅
+24  ✅
+25  design according to add product and banner✅
+26  it just only banner img but you can add url from admin panel to redirect particular product(category)✅
+27  ✅
+28  ✅
+29  ✅
+30  ✅Its Company Address
+
+31  ✅
+32  ✅
+33  ⭕⭕ Defer
+34  ✅
+35  ✅
+36  ✅
+37  ✅
+38  ✅
+39  ✅
+40  ✅
+
+
+23 Feb 2022
+41  ✅
+42  ✅
+43  ✅
+44  as You Add Product Img From Seller Panel (Show On Website)
+45  ✅
+46  ✅
+47  ✅
+48  ✅
+49  ✅
+50  ✅
+
+51  ✅Only Indian Postal Code get Country
+52  ✅
+53  ✅
+54  as You Add Product Img From Seller Panel (Show On Website)
+55  ✅
+56  ✅
+57  No Mention
+58  Cant Find
+59  ✅
+60  ✅
+
+61  ✅
+62  ✅
+63  ✅
+64  ✅
+65  ✅
+66  ✅
+67  ✅
+68  ✅
+69  ✅
+70  ✅
+
+71  currently not get
+72  ✅
+73  ✅
+74  ✅
+75  ✅
+76  ✅
+77  ✅ Only Single Product can be return(previous multiple)
+78  Change the design
+79  Discuss
+80  ✅
+
+23 Feb 2022
+
+81  ✅
+82  ✅
+83  ✅ Default India
+84  ✅
+85  ✅
+86  ✅
+87  ✅ 
+88  ✅
+89  ✅
+90  ✅  
+
+91  ✅
+92  
+93  No Mention
+94  ✅
+95  Discuss____________
+96  Done
+97  No Mention
+98  ✅ (Its only Img you add from seller panel)
+99  No Mention
+100  ✅
+ 
+101  ✅
+
+Front Points Left
+Pending [95 92  79   33  13 ]
+13 Mobile Otp
+33 Cant Find
+79 exchange
+95 Web Notification
+ADMIN Left Points
+[115 , 102 , 73]
+Seller Left Points
+[11 ,20 , 21 ,22 ,  26 , 50]
+
+
+
+
+sd 
+sd@mailinator.com
+1212121212
+
+eric
+ericcustomer@mailinator.com
+2121212212
+
+
+
+
+
+
+
+
+
+
+
+Front Points Left
+Pending [95   79   33  13 ]
+
+ADMIN Left Points
+[115 , 102 , 73]
+
+Seller Left Points
+[11 ,20 , 21 ,22 ,  26 ]
+
+
+gnu-22 gn-28
+
+
+
+
+user - when sign in with deactivated account -> message coming is wrong double email ✅
+2. admin -> category not adding
+3. Resend button should be activated in 30 sec ✅
+4. users - check issue GN-022 ✅
+5. users - check issue GN-027 ✅
+6. user - GN-036 ✅
+7. user - G-040
+8. user - GN-058
+
+
+http://localhost:3001/account/shopping-cart
+4592 4692.00
+4232.00 4232.00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin
+gn-
+123
+122
+120
+119
+118
+117
+116
+117
+111
+103
+100
+99
+95
+75
+68
+56
+47
+26
+27
+
+
+reopen 
+50 already
+36
+16
+14
+12
+
+
+
+Seller Left Points
+GN-43
+
+
+
+Admin
+G34
+G047
+G054
+
+
+25
+121
+
+
+
+11 April 2022
+New ADMIN 
+GNU
+001  ✅
+003  ✅
+004  ✅
+005  ✅
+006  ✅
+007  ✅ 
+008  ✅ 
+009  ✅ 
+010  ✅
+011  ✅
+012  ✅
+013  ✅
+014  ✅
+017  ✅
+
+
+
+OLD ADMIN 
+014  ✅
+016  ✅
+034  ✅(textediot)
+036  ✅
+
+047  ✅
+048  ✅
+058  ✅
+
+079  ✅(getting data from seller contact us page (it can't add and edit by admin ))
+085  ✅
+090  ✅
+
+088  ✅
+092  ✅
+0105 ✅
+0110 ✅
+0109 ✅
+
+
+
+
+
+
+
+
+0128  ✅
+0127  ✅
+0126  ✅
+0125  ✅
+0124  ✅
+
+
+
+
+
+
+
+
+
+(18 April 2022) 
+GN-021
+GN-024
+
+
+
+
+
+
+User Bug
+(25 April 2022)
+GN-009
+GN-010
+GN-013
+GN-014
+GN-022
+GN-023
+GN-035 Already Done
+GN-036
+
+GN-040 when no product add in this cateogry 
+GN-042
+GN-047
+ 
+
+26 April 
+GN-055
+GN-059 Already Done
+GN-060 Already Done
+GN-067
+GN-069
+GN-071
+GN-072
+GN-075
+GN-077
+GN-080
+
+GN-081 cant find
+GN-082
+GN-090
+
+GN-096 Discuss_________________
+
+GN-098
+GN-099
+GN-100
+
+GN-103( more than one 1
+GN-104 searcgh on sub category base)
+GN-105 change vendor
+GN-106
+GN-107
+GN-108
+GN-109
+GN-110
+
+GN-103 Already Done
+
+GN-104 Google work
+
+
+
+
+NOT Done
+GN-101
+GN-096
+GN-040
+
+
+
+
+
+
+New Bug List
+GN-025
+GN-024
+GN-021
+
+GN-020
+GN-018
+
+
+
+2 May 2022
+New Admin
+GN-025 ✅
+GN-024 ✅
+GN-023 ✅
+GN-021 ✅
+GN-020 ✅
+GN-019 ✅
+GN-018 ✅
+GN-017 ✅
+GN-002 ✅ 
+
+
+New Seller
+GN-048
+GN-045
+GN-033
+GN-030
+GN-017
+GN-022
+
+
+
+
+
+
+
+
+Admin
+GN-037 ✅
+GN-079 Get from seller gallinukkad
+
+
+GN-003 Provide svg logo ❌
+GN-061 Not scroll ❌
+GN-063 all products return policy ❌
+GN-064 not get Now ❌
+GN-074 Not scroll ❌
+
+
+
+  
+****Admin****
+GN-003 Provide svg logo ❌
+GN-061 Not scroll ❌
+GN-063 all products return policy ❌
+GN-064 not get Now ❌
+GN-074 Not scroll ❌
+
+****New Admin****
+GN-022 product deatils with video ❌
+GN-026 Menu css problem ❌
+
+****Seller****
+GN-010 excel sheet ❌
+GN-031 excel sheet ❌
+GN-029 Discuss manage stock ❌
+
+****Users****
+GN-010 Menu css problem ❌
+GN-026 Menu css problem ❌
+GN-081 cant find ❌
+GN-096 currently not have options ❌
+GN-101 work but not properly
+
+
+
+
+
+
+
+
